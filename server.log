@@ -1,0 +1,33 @@
+INFO:     Started server process [10174]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:__main__:GET https://localhost:8000/?id=c01a77ec-a81b-4cf4-a4bb-083300bfcadf&vscodeBrowserReqId=1750948279097
+INFO:__main__:Response status: 200
+INFO:     142.152.64.152:0 - "GET /?id=c01a77ec-a81b-4cf4-a4bb-083300bfcadf&vscodeBrowserReqId=1750948279097 HTTP/1.1" 200 OK
+INFO:__main__:GET https://localhost:8000/?id=c01a77ec-a81b-4cf4-a4bb-083300bfcadf&vscodeBrowserReqId=1750948423450
+INFO:__main__:Response status: 200
+INFO:     142.152.64.152:0 - "GET /?id=c01a77ec-a81b-4cf4-a4bb-083300bfcadf&vscodeBrowserReqId=1750948423450 HTTP/1.1" 200 OK
+INFO:__main__:GET https://localhost:8000/
+INFO:__main__:Response status: 200
+INFO:     142.152.64.152:0 - "GET / HTTP/1.1" 200 OK
+INFO:__main__:GET https://localhost:8000/
+INFO:__main__:Response status: 200
+INFO:     142.152.64.152:0 - "GET / HTTP/1.1" 200 OK
+INFO:__main__:GET https://localhost:8000/docs
+INFO:__main__:Response status: 200
+INFO:     142.152.64.152:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:__main__:GET https://localhost:8000/openapi.json
+WARNING:fastapi:email-validator not installed, email fields will be treated as str.
+To install, run: pip install email-validator
+INFO:__main__:Response status: 200
+INFO:     142.152.64.152:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:__main__:GET https://localhost:8000/docs
+INFO:__main__:Response status: 200
+INFO:     142.152.64.152:0 - "GET /docs HTTP/1.1" 200 OK
+INFO:__main__:GET https://localhost:8000/openapi.json
+INFO:__main__:Response status: 200
+INFO:     142.152.64.152:0 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:__main__:GET https://localhost:8000/items/2
+INFO:__main__:Response status: 200
+INFO:     142.152.64.152:0 - "GET /items/2 HTTP/1.1" 200 OK
