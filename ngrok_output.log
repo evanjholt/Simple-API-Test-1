@@ -1,154 +1,83 @@
-INFO:pyngrok.process:Updating authtoken for default "config_path" of "ngrok_path": /usr/local/python/3.12.1/lib/python3.12/site-packages/pyngrok/bin/ngrok
-INFO:     Started server process [56204]
+INFO:     Started server process [50475]
 INFO:     Waiting for application startup.
+INFO:databases:Connected to database sqlite:///./insider_trading.db
 INFO:     Application startup complete.
-INFO:     Uvicorn running on http://127.0.0.1:8090 (Press CTRL+C to quit)
-INFO:pyngrok.ngrok:Opening tunnel named: http-8090-90dbd2d8-a3c2-4c2e-823b-480dcbf41609
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg="no configuration paths supplied"
-WARNING:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/home/codespace/.config/ngrok/ngrok.yml legacy_path=/home/codespace/.ngrok2/ngrok.yml
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg="using configuration at default config path" path=/home/codespace/.ngrok2/ngrok.yml
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg="open config file" path=/home/codespace/.ngrok2/ngrok.yml err=nil
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg="client session established" obj=tunnels.session
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg="tunnel session started" obj=tunnels.session
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg=start pg=/api/tunnels id=a37b4ba3956b1880
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg=end pg=/api/tunnels id=a37b4ba3956b1880 status=200 dur=179.194µs
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg=start pg=/api/tunnels id=f841235234229c57
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg=end pg=/api/tunnels id=f841235234229c57 status=200 dur=71.584µs
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg=start pg=/api/tunnels id=477a693f507864da
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg="started tunnel" obj=tunnels name=http-8090-90dbd2d8-a3c2-4c2e-823b-480dcbf41609 addr=http://localhost:8090 url=https://be48-51-143-4-82.ngrok-free.app
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:03:43+0000 lvl=info msg=end pg=/api/tunnels id=477a693f507864da status=201 dur=84.558476ms
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:06:53+0000 lvl=info msg=start pg=/api/tunnels id=758efe9dcc27fbd1
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:06:53+0000 lvl=info msg=end pg=/api/tunnels id=758efe9dcc27fbd1 status=200 dur=432.828µs
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:08:01+0000 lvl=info msg="join connections" obj=join id=611ce28559ab l=127.0.0.1:8090 r=142.152.64.152:22707
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/docs
+INFO:     Uvicorn running on http://127.0.0.1:8003 (Press CTRL+C to quit)
+INFO:pyngrok.ngrok:Opening tunnel named: http-8003-95f620e7-300e-466b-bf29-f02d5d815755
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg="no configuration paths supplied"
+WARNING:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=warn msg="ngrok config file found at legacy location, move to XDG location" xdg_path=/home/codespace/.config/ngrok/ngrok.yml legacy_path=/home/codespace/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg="using configuration at default config path" path=/home/codespace/.ngrok2/ngrok.yml
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg="open config file" path=/home/codespace/.ngrok2/ngrok.yml err=nil
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg="update available" obj=updater
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg="client session established" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg="tunnel session started" obj=tunnels.session
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg=start pg=/api/tunnels id=d2c6a5b7d652bb8d
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg=end pg=/api/tunnels id=d2c6a5b7d652bb8d status=200 dur=176.389µs
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg=start pg=/api/tunnels id=c558dd5a961326f6
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg=end pg=/api/tunnels id=c558dd5a961326f6 status=200 dur=75.14µs
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg=start pg=/api/tunnels id=a2330ac9736bc608
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg="started tunnel" obj=tunnels name=http-8003-95f620e7-300e-466b-bf29-f02d5d815755 addr=http://localhost:8003 url=https://83cc-4-155-45-99.ngrok-free.app
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:52:54+0000 lvl=info msg=end pg=/api/tunnels id=a2330ac9736bc608 status=201 dur=81.030955ms
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:55:24+0000 lvl=info msg="join connections" obj=join id=02f4de06092e l=127.0.0.1:8003 r=142.152.64.152:60759
+INFO:main:GET https://83cc-4-155-45-99.ngrok-free.app/docs
 INFO:main:Response status: 200
 🔧 Setting up ngrok...
-✅ Set ngrok auth token
-🚀 Starting FastAPI server on port 8090...
+🚀 Starting FastAPI server on port 8003...
 🌐 Creating ngrok tunnel...
 
 ============================================================
 🌐 API DEPLOYED WITH NGROK
 ============================================================
-📍 Local URL:     http://localhost:8090
-🔗 Public URL:    https://be48-51-143-4-82.ngrok-free.app
-📚 API Docs:      https://be48-51-143-4-82.ngrok-free.app/docs
-📖 ReDoc:         https://be48-51-143-4-82.ngrok-free.app/redoc
-💓 Health Check:  https://be48-51-143-4-82.ngrok-free.app/health
+📍 Local URL:     http://localhost:8003
+🔗 Public URL:    https://83cc-4-155-45-99.ngrok-free.app
+📚 API Docs:      https://83cc-4-155-45-99.ngrok-free.app/docs
+📖 ReDoc:         https://83cc-4-155-45-99.ngrok-free.app/redoc
+💓 Health Check:  https://83cc-4-155-45-99.ngrok-free.app/health
 ============================================================
 
 🔧 TESTING ENDPOINTS:
-  Users:     https://be48-51-143-4-82.ngrok-free.app/users
-  Items:     https://be48-51-143-4-82.ngrok-free.app/items
-  Root:      https://be48-51-143-4-82.ngrok-free.app/
+  Users:     https://83cc-4-155-45-99.ngrok-free.app/users
+  Items:     https://83cc-4-155-45-99.ngrok-free.app/items
+  Root:      https://83cc-4-155-45-99.ngrok-free.app/
 
 💡 Use these URLs in your external testing programs!
 
 ⚠️  Press Ctrl+C to stop the deployment
 ------------------------------------------------------------
 INFO:     142.152.64.152:0 - "GET /docs HTTP/1.1" 200 OK
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/openapi.json
+INFO:main:GET https://83cc-4-155-45-99.ngrok-free.app/openapi.json
 WARNING:fastapi:email-validator not installed, email fields will be treated as str.
 To install, run: pip install email-validator
 INFO:main:Response status: 200
 INFO:     142.152.64.152:0 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:08:12+0000 lvl=info msg="join connections" obj=join id=9ba3e3a7bd6b l=127.0.0.1:8090 r=142.152.64.152:22707
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/
+INFO:main:GET https://83cc-4-155-45-99.ngrok-free.app/health
 INFO:main:Response status: 200
-INFO:     142.152.64.152:0 - "GET / HTTP/1.1" 200 OK
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/favicon.ico
-ERROR:utils.exceptions:HTTP 404: Not Found
+INFO:     142.152.64.152:0 - "GET /health HTTP/1.1" 200 OK
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:55:57+0000 lvl=info msg="join connections" obj=join id=0d96f0c9bc12 l=127.0.0.1:8003 r=142.152.64.152:41406
+INFO:main:GET https://83cc-4-155-45-99.ngrok-free.app/favicon.ico
+ERROR:utils.exceptions:HTTP 404: Not Found - Path: /favicon.ico
 INFO:main:Response status: 404
 INFO:     142.152.64.152:0 - "GET /favicon.ico HTTP/1.1" 404 Not Found
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:56:19+0000 lvl=info msg="join connections" obj=join id=921701b71a17 l=127.0.0.1:8003 r=142.152.64.152:65122
+INFO:main:GET https://83cc-4-155-45-99.ngrok-free.app/
+INFO:main:Response status: 200
+INFO:     142.152.64.152:0 - "GET / HTTP/1.1" 200 OK
+INFO:main:GET https://83cc-4-155-45-99.ngrok-free.app/insiders
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:56:39+0000 lvl=info msg="join connections" obj=join id=cd5328ac232a l=127.0.0.1:8003 r=35.237.75.1:36862
 INFO:main:Response status: 307
-INFO:     142.152.64.152:0 - "GET /users HTTP/1.1" 307 Temporary Redirect
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:08:23+0000 lvl=info msg="join connections" obj=join id=9ed7b63714ad l=127.0.0.1:8090 r=142.152.64.152:22707
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/
+INFO:     35.237.75.1:0 - "GET /insiders HTTP/1.1" 307 Temporary Redirect
+INFO:main:GET https://83cc-4-155-45-99.ngrok-free.app/insiders/
 INFO:main:Response status: 200
-INFO:     142.152.64.152:0 - "GET /users/ HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:10:54+0000 lvl=info msg="join connections" obj=join id=3dbbb41a60c1 l=127.0.0.1:8090 r=142.152.64.152:5074
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/redoc
+INFO:     35.237.75.1:0 - "GET /insiders/ HTTP/1.1" 200 OK
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:56:47+0000 lvl=info msg="join connections" obj=join id=f893e417dd91 l=127.0.0.1:8003 r=35.237.75.1:58260
+INFO:main:GET https://83cc-4-155-45-99.ngrok-free.app/
 INFO:main:Response status: 200
-INFO:     142.152.64.152:0 - "GET /redoc HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:10:55+0000 lvl=info msg="join connections" obj=join id=e58336315fb4 l=127.0.0.1:8090 r=142.152.64.152:30058
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/openapi.json
-INFO:main:Response status: 200
-INFO:     142.152.64.152:0 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:12:07+0000 lvl=info msg="join connections" obj=join id=26e421b7bd3e l=127.0.0.1:8090 r=142.152.64.152:4696
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/{id}
-ERROR:utils.exceptions:Validation error: [{'type': 'int_parsing', 'loc': ('path', 'user_id'), 'msg': 'Input should be a valid integer, unable to parse string as an integer', 'input': '{id}', 'url': 'https://errors.pydantic.dev/2.5/v/int_parsing'}]
-INFO:main:Response status: 422
-INFO:     142.152.64.152:0 - "GET /users/%7Bid%7D HTTP/1.1" 422 Unprocessable Entity
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:15:02+0000 lvl=info msg="join connections" obj=join id=6334422a4c1d l=127.0.0.1:8090 r=34.19.30.132:58970
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/health
-INFO:main:Response status: 200
-INFO:     34.19.30.132:0 - "GET /health HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:16:37+0000 lvl=info msg="join connections" obj=join id=59961bfa34b3 l=127.0.0.1:8090 r=34.19.30.132:50636
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users
+INFO:     35.237.75.1:0 - "GET / HTTP/1.1" 200 OK
+INFO:pyngrok.process.ngrok:t=2025-07-03T17:57:46+0000 lvl=info msg="join connections" obj=join id=e4babc961dbf l=127.0.0.1:8003 r=142.152.64.152:29211
+INFO:main:GET https://83cc-4-155-45-99.ngrok-free.app/insiders
 INFO:main:Response status: 307
-INFO:     34.19.30.132:0 - "GET /users HTTP/1.1" 307 Temporary Redirect
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/
+INFO:     142.152.64.152:0 - "GET /insiders HTTP/1.1" 307 Temporary Redirect
+INFO:main:GET https://83cc-4-155-45-99.ngrok-free.app/insiders/
 INFO:main:Response status: 200
-INFO:     34.19.30.132:0 - "GET /users/ HTTP/1.1" 200 OK
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/1
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:18:57+0000 lvl=info msg="join connections" obj=join id=58647f874fde l=127.0.0.1:8090 r=34.19.30.132:51990
-INFO:main:Response status: 200
-INFO:     34.19.30.132:0 - "GET /users/1 HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:18:57+0000 lvl=info msg="join connections" obj=join id=dbe2ddac4524 l=127.0.0.1:8090 r=34.19.30.132:51994
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/1
-INFO:main:Response status: 200
-INFO:     34.19.30.132:0 - "GET /users/1 HTTP/1.1" 200 OK
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/2
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:18:57+0000 lvl=info msg="join connections" obj=join id=b8fe7a683e71 l=127.0.0.1:8090 r=34.19.30.132:52004
-INFO:main:Response status: 200
-INFO:     34.19.30.132:0 - "GET /users/2 HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:18:58+0000 lvl=info msg="join connections" obj=join id=dab7448a63b2 l=127.0.0.1:8090 r=34.19.30.132:52016
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/3
-INFO:main:Response status: 200
-INFO:     34.19.30.132:0 - "GET /users/3 HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:18:58+0000 lvl=info msg="join connections" obj=join id=7aa6d6b40dd2 l=127.0.0.1:8090 r=34.19.30.132:52032
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/99
-ERROR:utils.exceptions:HTTP 404: User with id 99 not found
-INFO:main:Response status: 404
-INFO:     34.19.30.132:0 - "GET /users/99 HTTP/1.1" 404 Not Found
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:19:25+0000 lvl=info msg="join connections" obj=join id=2507e7a38e99 l=127.0.0.1:8090 r=34.19.30.132:49510
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/2
-INFO:main:Response status: 200
-INFO:     34.19.30.132:0 - "GET /users/2 HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:19:25+0000 lvl=info msg="join connections" obj=join id=0f364f940536 l=127.0.0.1:8090 r=34.19.30.132:38100
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/1
-INFO:main:Response status: 200
-INFO:     34.19.30.132:0 - "GET /users/1 HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:19:25+0000 lvl=info msg="join connections" obj=join id=fb41932ece59 l=127.0.0.1:8090 r=34.19.30.132:38112
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/2
-INFO:main:Response status: 200
-INFO:     34.19.30.132:0 - "GET /users/2 HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:19:25+0000 lvl=info msg="join connections" obj=join id=a914ab7066c0 l=127.0.0.1:8090 r=34.19.30.132:38118
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/3
-INFO:main:Response status: 200
-INFO:     34.19.30.132:0 - "GET /users/3 HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:19:26+0000 lvl=info msg="join connections" obj=join id=7d7d9ffecb9e l=127.0.0.1:8090 r=34.19.30.132:38134
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/99
-ERROR:utils.exceptions:HTTP 404: User with id 99 not found
-INFO:main:Response status: 404
-INFO:     34.19.30.132:0 - "GET /users/99 HTTP/1.1" 404 Not Found
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:22:20+0000 lvl=info msg="join connections" obj=join id=f50612d0a09c l=127.0.0.1:8090 r=142.152.64.152:9397
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/docs
-INFO:main:Response status: 200
-INFO:     142.152.64.152:0 - "GET /docs HTTP/1.1" 200 OK
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/openapi.json
-INFO:main:Response status: 200
-INFO:     142.152.64.152:0 - "GET /openapi.json HTTP/1.1" 200 OK
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/?skip=0&limit=10&active_only=false
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:22:43+0000 lvl=info msg="join connections" obj=join id=279fe60169e4 l=127.0.0.1:8090 r=142.152.64.152:44154
-INFO:main:Response status: 200
-INFO:     142.152.64.152:0 - "GET /users/?skip=0&limit=10&active_only=false HTTP/1.1" 200 OK
-INFO:pyngrok.process.ngrok:t=2025-06-26T16:54:57+0000 lvl=info msg="join connections" obj=join id=151d9bc0536d l=127.0.0.1:8090 r=142.152.64.152:50506
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users
-INFO:main:Response status: 307
-INFO:     142.152.64.152:0 - "GET /users HTTP/1.1" 307 Temporary Redirect
-INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/
-INFO:main:Response status: 200
-INFO:     142.152.64.152:0 - "GET /users/ HTTP/1.1" 200 OK
+INFO:     142.152.64.152:0 - "GET /insiders/ HTTP/1.1" 200 OK
