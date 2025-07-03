@@ -145,3 +145,10 @@ INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/?skip=0&limit=10&act
 INFO:pyngrok.process.ngrok:t=2025-06-26T16:22:43+0000 lvl=info msg="join connections" obj=join id=279fe60169e4 l=127.0.0.1:8090 r=142.152.64.152:44154
 INFO:main:Response status: 200
 INFO:     142.152.64.152:0 - "GET /users/?skip=0&limit=10&active_only=false HTTP/1.1" 200 OK
+INFO:pyngrok.process.ngrok:t=2025-06-26T16:54:57+0000 lvl=info msg="join connections" obj=join id=151d9bc0536d l=127.0.0.1:8090 r=142.152.64.152:50506
+INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users
+INFO:main:Response status: 307
+INFO:     142.152.64.152:0 - "GET /users HTTP/1.1" 307 Temporary Redirect
+INFO:main:GET https://be48-51-143-4-82.ngrok-free.app/users/
+INFO:main:Response status: 200
+INFO:     142.152.64.152:0 - "GET /users/ HTTP/1.1" 200 OK
