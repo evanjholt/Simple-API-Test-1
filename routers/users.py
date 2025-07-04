@@ -82,8 +82,8 @@ async def create_user(user: UserCreate):
 
 @router.put("/{user_id}", response_model=User, summary="Update user")
 async def update_user(
+    user_update: UserUpdate,
     user_id: int = Path(..., gt=0, description="The ID of the user to update"),
-    user_update: UserUpdate = None
 ):
     user = next((user for user in fake_users_db if user["id"] == user_id), None)
     if not user:

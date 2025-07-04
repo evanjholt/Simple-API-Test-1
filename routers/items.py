@@ -114,8 +114,8 @@ async def create_item(item: ItemCreate):
 
 @router.put("/{item_id}", response_model=Item, summary="Update item")
 async def update_item(
+    item_update: ItemUpdate,
     item_id: int = Path(..., gt=0, description="The ID of the item to update"),
-    item_update: ItemUpdate = None
 ):
     item = next((item for item in fake_items_db if item["id"] == item_id), None)
     if not item:
